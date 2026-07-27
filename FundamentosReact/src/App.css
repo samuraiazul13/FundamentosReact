@@ -1,3 +1,9 @@
+.contenedor{
+ background-color: antiquewhite;
+ align-items: center;
+ justify-content: center;
+}
+
 body {
   background-color: antiquewhite;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,6 +23,7 @@ h1{
 h2{
   color: rgb(0, 0, 0)
 }
+
 p{
   font-size: 18px;
   color: rgb(75, 75, 75);
