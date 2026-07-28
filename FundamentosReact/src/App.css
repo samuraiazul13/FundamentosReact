@@ -1,54 +1,68 @@
-.contenedor{
- background-color: antiquewhite;
- align-items: center;
- justify-content: center;
-}
-
 body {
+  margin: 0;
   background-color: antiquewhite;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  padding: 20px;
 }
 
-h1{
-  color:rgb(223, 14, 111);
-  font-size: 20px;
+.contenedor {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: center;
+  margin: 50px auto;
 }
 
-h2{
-  color: rgb(0, 0, 0)
+h1 {
+  color: rgb(223, 14, 111);
+  font-size: 22px;
+  margin-top: 20px;
 }
 
-p{
+h2 {
+  color: #000;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+p {
   font-size: 18px;
   color: rgb(75, 75, 75);
+  line-height: 1.6;
+  text-align: justify;
 }
 
-img{
+img {
   border-radius: 10px;
-  margin: 20px;
+  margin: 20px 0;
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
-button{
-  color: rgb(0, 0, 0);
-  width: 100px;
+button {
+  color: white;
   background-color: rgb(226, 43, 156);
-  border-radius: 12px 12px;
-  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.tarjeta-cv {
-  background-color: #ffffff;
-  max-width: 600px;
-  width: 100%;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-  text-align: center; 
+button:hover {
+  background-color: rgb(190, 30, 130);
+}
+
+.cursos {
+  margin-top: 30px;
+}
+
+
+.cursos ul {
+  list-style-position: inside;
+}
+
+.cursos li {
+  margin: 8px 0;
+  font-size: 18px;
+  color: rgb(75, 75, 75);
 }
